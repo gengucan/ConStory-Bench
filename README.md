@@ -18,10 +18,6 @@
 
 ---
 
-## 🔥 News
-
-- [2026-04-07] Our paper *Lost in Stories: Consistency Bugs in Long Story Generation by LLMs* was accepted to **ACL 2026**.
-
 ## 🔍 Overview
 
 LLMs can generate stories with tens of thousands of words, but they often contradict themselves along the way — characters forget their backstories, timelines break, and world rules silently change.
@@ -45,6 +41,10 @@ ConStory-Checker detects consistency errors across **5 categories** (19 subtypes
 </p>
 
 🏆 **With ConStory-Bench, we aim to track how well LLMs maintain narrative consistency as they scale. View our [Leaderboard](https://picrew.github.io/constory-bench.github.io/leadboard/) (updating).**
+
+## 🔥 News
+
+- [2026-04-07] Our paper *Lost in Stories: Consistency Bugs in Long Story Generation by LLMs* was accepted to **ACL 2026**.
 
 ## 📄 Paper
 

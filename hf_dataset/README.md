@@ -33,16 +33,6 @@ size_categories:
   <a href="https://picrew.github.io/constory-bench.github.io/leadboard/">Leaderboard</a>
 </p>
 
-## 🔥 News
-
-- [2026-04-07] Our paper *Lost in Stories: Consistency Bugs in Long Story Generation by LLMs* was accepted to **ACL 2026**.
-
-## 📄 Paper
-
-- Title: *Lost in Stories: Consistency Bugs in Long Story Generation by LLMs*
-- arXiv Abstract: https://arxiv.org/abs/2603.05890
-- arXiv PDF: https://arxiv.org/pdf/2603.05890
-
 ## 🔍 What is ConStory-Bench?
 
 A benchmark for evaluating **narrative consistency** in long-form story generation. It includes prompts across 4 task types and evaluations using an LLM-as-judge pipeline (**ConStory-Checker**) that detects contradictions with exact quotes.
@@ -56,6 +46,16 @@ A benchmark for evaluating **narrative consistency** in long-form story generati
 </p>
 
 🏆 **With ConStory-Bench, we aim to track how well LLMs maintain narrative consistency as they scale. View our [Leaderboard](https://picrew.github.io/constory-bench.github.io/leadboard/) (updating).**
+
+## 🔥 News
+
+- [2026-04-07] Our paper *Lost in Stories: Consistency Bugs in Long Story Generation by LLMs* was accepted to **ACL 2026**.
+
+## 📄 Paper
+
+- Title: *Lost in Stories: Consistency Bugs in Long Story Generation by LLMs*
+- arXiv Abstract: https://arxiv.org/abs/2603.05890
+- arXiv PDF: https://arxiv.org/pdf/2603.05890
 
 ## 📦 Files
 
