@@ -20,8 +20,7 @@
 
 ## 🔥 News
 
-- **ACL 2026**: Our paper *Lost in Stories: Consistency Bugs in Long Story Generation by LLMs* has been accepted to **ACL 2026**.
-- See all announcements in [NEWS.md](NEWS.md).
+- [2026-04-07] Our paper *Lost in Stories: Consistency Bugs in Long Story Generation by LLMs* was accepted to **ACL 2026**.
 
 ## 🔍 Overview
 
