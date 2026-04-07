@@ -33,6 +33,10 @@ size_categories:
   <a href="https://picrew.github.io/constory-bench.github.io/leadboard/">Leaderboard</a>
 </p>
 
+## 🔥 News
+
+- **ACL 2026**: Our paper *Lost in Stories: Consistency Bugs in Long Story Generation by LLMs* has been accepted to **ACL 2026**.
+
 ## 📄 Paper
 
 - Title: *Lost in Stories: Consistency Bugs in Long Story Generation by LLMs*

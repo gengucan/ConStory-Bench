@@ -18,6 +18,11 @@
 
 ---
 
+## 🔥 News
+
+- **ACL 2026**: Our paper *Lost in Stories: Consistency Bugs in Long Story Generation by LLMs* has been accepted to **ACL 2026**.
+- See all announcements in [NEWS.md](NEWS.md).
+
 ## 🔍 Overview
 
 LLMs can generate stories with tens of thousands of words, but they often contradict themselves along the way — characters forget their backstories, timelines break, and world rules silently change.
