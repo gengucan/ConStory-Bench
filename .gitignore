@@ -7,6 +7,7 @@ __pycache__/
 dist/
 build/
 *.egg
+secrets
 
 # Virtual environments
 .venv/
@@ -44,3 +45,4 @@ hf_dataset/evaluations/*.csv
 
 # Jupyter
 .ipynb_checkpoints/
+generate_with_memory.py

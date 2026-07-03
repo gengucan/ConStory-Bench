@@ -45,8 +45,8 @@ from tqdm import tqdm
 MAX_TOKENS = 10000
 TEMPERATURE = 0.5
 DEFAULT_CONCURRENT = 3
-MAX_RETRIES = 3
-RETRY_DELAY_BASE = 5
+MAX_RETRIES = 5
+RETRY_DELAY_BASE = 15
 REQUEST_TIMEOUT = 600
 CONNECT_TIMEOUT = 30
 BATCH_DELAY_SECONDS = 1
@@ -391,7 +391,9 @@ class ConStoryChecker:
         try:
             # Evaluate all 5 categories concurrently
             tasks = []
-            for cat in EVALUATION_CRITERIA:
+            for i, cat in enumerate(EVALUATION_CRITERIA):
+                if i > 0:
+                    await asyncio.sleep(2)
                 t = self.client.evaluate_criteria(
                     session, self.templates[cat], story_text, cat
                 )
