@@ -54,19 +54,24 @@ If you are starting a story:
 - Write approximately {chunk_words} words then stop mid-story (do not resolve the plot).
 
 If you are continuing a story:
-- You will be given the full story written so far plus extracted memory notes.
+- You will be given the full story written so far plus memory notes retrieved from Mem0.
 - Continue seamlessly from where the story ends, preserving tone, style, and all established facts.
 - Write approximately {chunk_words} more words then stop again at a natural pause point.
 
-Every 1000 words you MUST store memories covering:
-- Major character details (names, traits, relationships, arcs)
-- World rules and setting facts
-- Key plot points that have occurred
-- Your intended direction for the plot going forward
-- Tone and stylistic choices
-- Current total word count (as a separate memory entry)
+MEMORY HANDLING (internal only):
+- Every 1000 words, call the Mem0 tool to store structured notes covering:
+  - Major character details (names, traits, relationships, arcs)
+  - World rules and setting facts
+  - Key plot points that have occurred
+  - Your intended direction for the plot going forward
+  - Tone and stylistic choices
+  - Current total word count (as a separate memory entry)
+- This is a tool call, not part of your written response. Never paraphrase, summarize, or reference these notes in the story output.
 
-These memories act as your structured notes alongside the full prose — use both.
+OUTPUT FORMAT:
+- Your response must contain ONLY the story prose for this chunk.
+- Do not include memory notes, summaries, meta-commentary, word counts, chunk labels, headers, or any text about what you stored or plan to store.
+- Do not wrap the story in quotes, titles, or preambles like "Here's the next part" — start directly with story text and end directly with story text.
 """.strip()
 
 
