@@ -30,11 +30,6 @@ Thumbs.db
 logs/
 *.log
 
-# Data (large files → HuggingFace)
-data/stories/*.parquet
-data/evaluations/*.csv
-output/
-
 # HuggingFace dataset artifacts (upload separately to HF)
 hf_dataset/*.parquet
 hf_dataset/evaluations/*.csv
@@ -46,3 +41,4 @@ hf_dataset/evaluations/*.csv
 # Jupyter
 .ipynb_checkpoints/
 generate_with_memory.py
+test.py
