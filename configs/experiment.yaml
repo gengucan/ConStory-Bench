@@ -1,0 +1,21 @@
+# ConStory-Bench Model Configuration
+# Each model entry defines:
+#   name:         Display name (used in leaderboard tables)
+#   eval_file:    Evaluation CSV filename (in evaluations/ directory)
+#   story_column: Column name containing the generated story text in the CSV
+#   category:     Model category for grouping
+#   organization: Organization / company
+
+models:
+  # ============ Proprietary Models ============
+  - name: "GPT-4o-mini"
+    eval_file: "gpt-4o-mini_rejudge.csv"
+    story_column: "generated_story"
+    category: "Proprietary Models"
+    organization: "OpenAI"
+
+  - name: "Claude-Sonnet-4.5"
+    eval_file: "claude-sonnet-4.5_rejudge.csv"
+    story_column: "generated_story"
+    category: "Proprietary Models"
+    organization: "Anthropic"

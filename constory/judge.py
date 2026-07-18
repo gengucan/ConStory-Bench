@@ -201,10 +201,13 @@ class JudgeLLMClient:
             payload = {
                 "model": self.model,
                 "messages": [{"role": "user", "content": prompt}],
-                "max_tokens": MAX_TOKENS,
-                "temperature": TEMPERATURE,
                 "stream": False,
             }
+            if self.model.startswith("o"):  # o-series reasoning models
+                payload["max_completion_tokens"] = MAX_TOKENS
+            else:
+                payload["max_tokens"] = MAX_TOKENS
+                payload["temperature"] = TEMPERATURE
             timeout = aiohttp.ClientTimeout(
                 total=REQUEST_TIMEOUT, connect=CONNECT_TIMEOUT
             )
